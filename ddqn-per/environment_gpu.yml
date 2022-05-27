@@ -1,0 +1,20 @@
+name: rl_assignment_2
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - ipykernel
+  - pandas
+  - seaborn
+  - scikit-learn
+  - matplotlib
+  - opencv
+  - swig
+  - pip
+  - pip:
+      - tensorflow-gpu==2.0.0
+      - scikit-image
+      - pydot
+      - box2d-py
+      - pyglet
+      - gym [LunarLander-v2]
